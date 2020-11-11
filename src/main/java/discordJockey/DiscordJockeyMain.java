@@ -28,9 +28,10 @@ public class DiscordJockeyMain {
 			.addInlineField("Ball Stretcher", "A ball stretcher is a sex toy that is used to elongate the scrotum and provide a feeling of weight pulling the testicles away from the body. This can be particularly enjoyable for the wearer as it can make an orgasm more intense, as testicles are prevented from moving up. Intended to make one's testicles permanently hang much lower than before (if used regularly for extended periods of time), this sex toy can be potentially harmful to the male genitals as the circulation of blood can be easily cut off if over-tightened. While leather stretchers are most common, other models consist of an assortment of steel rings that fastens with screws, causing additional but only mildly uncomfortable weight to the wearer's testicles. The length of the stretcher may vary from 1-4 inches.[14] A more dangerous type of ball stretcher can be home-made simply by wrapping rope or string around one's scrotum until it is eventually stretched to the desired length.")		
 			.addInlineField("Ball Crusher", "A ball crusher is a device made from either metal or often clear acrylic that squeezes the testicles slowly by turning a nut or screw. How tight it is clamped depends on the pain tolerance of the person it is used on. A ball crusher is often combined with bondage, either with a partner or by oneself.");
 	
+	//Token removed from public facing github
 	public static void main(String[] args) {
 		System.out.println("Hello World");
-		DiscordApi api = new DiscordApiBuilder().setToken("MzcyOTI0NTc2MTYzOTU0Njg4.DyvdCA.H72T-f5dSF8VqmZeDJqiD1zjAZs").login().join();
+		DiscordApi api = new DiscordApiBuilder().setToken("").login().join();
 		System.out.println("*** Connection Active *** Begin Bot Boot ***");
 		//Handles bot boot and logging in
 		

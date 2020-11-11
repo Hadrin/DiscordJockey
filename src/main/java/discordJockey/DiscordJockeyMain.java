@@ -20,13 +20,14 @@ public class DiscordJockeyMain {
 	static boolean ruinServer = false;
 	
 	//Creates Embed for CBT module
+	//Removed from public facing github due to crude humor
 	static EmbedBuilder cbt = new EmbedBuilder()
-			.setTitle("Cock And Ball Torture")
-			.setAuthor("Why I shouldn't be allowed to use a computer")
-			.setDescription("Cock and ball torture (CBT), penis torture or dick torture is a sexual activity involving application of pain or constriction to the penis or testicles. This may involve directly painful activities, such as genital piercing, wax play, genital spanking, squeezing, ball-busting, genital flogging, urethral play, tickle torture, erotic electrostimulation or even kicking.[1] The recipient of such activities may receive direct physical pleasure via masochism, or emotional pleasure through erotic humiliation, or knowledge that the play is pleasing to a sadistic dominant. Many of these practices carry significant health risks.[2]")
-			.addField("Devices", "Similar to many other sexual activities, CBT can be performed using toys and devices to make the penis and testicles more easily accessible for attack, or for foreplay purposes.[12][13]")
-			.addInlineField("Ball Stretcher", "A ball stretcher is a sex toy that is used to elongate the scrotum and provide a feeling of weight pulling the testicles away from the body. This can be particularly enjoyable for the wearer as it can make an orgasm more intense, as testicles are prevented from moving up. Intended to make one's testicles permanently hang much lower than before (if used regularly for extended periods of time), this sex toy can be potentially harmful to the male genitals as the circulation of blood can be easily cut off if over-tightened. While leather stretchers are most common, other models consist of an assortment of steel rings that fastens with screws, causing additional but only mildly uncomfortable weight to the wearer's testicles. The length of the stretcher may vary from 1-4 inches.[14] A more dangerous type of ball stretcher can be home-made simply by wrapping rope or string around one's scrotum until it is eventually stretched to the desired length.")		
-			.addInlineField("Ball Crusher", "A ball crusher is a device made from either metal or often clear acrylic that squeezes the testicles slowly by turning a nut or screw. How tight it is clamped depends on the pain tolerance of the person it is used on. A ball crusher is often combined with bondage, either with a partner or by oneself.");
+			.setTitle(" ")
+			.setAuthor(" ")
+			.setDescription(" ")
+			.addField(" ", " ")
+			.addInlineField(" ", " ")		
+			.addInlineField(" ", " ");
 	
 	//Token removed from public facing github
 	public static void main(String[] args) {
@@ -86,7 +87,7 @@ public class DiscordJockeyMain {
 							event.getChannel().sendMessage("Syntax: $ruinserver [password]");
 							event.getChannel().sendMessage("Ruins the server.");
 							break;
-						case "ruinserver bonerific":
+						case "ruinserver 12345":
 							if(ruinServer == false) {
 								event.getChannel().sendMessage("Server Ruiner Activated");
 								ruinServer = true;
